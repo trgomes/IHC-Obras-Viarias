@@ -65,12 +65,19 @@ nav{
     background-color: #337ab7;
 }
 
-#sobre, #equipe{
-    padding: 30px;
+#sobre, #equipe, #graficos{
+    padding: 50px;
+    border: 1px solid #000;
 }
 
-#sobre h1, #equipe h1{
-    margin-bottom: 30px;
+#sobre h1, #equipe h1, #graficos h1{
+    padding-bottom: 40px;
+}
+
+#sobre p{
+    text-indent: 2.5em;
+    font-size: 12pt;
+    line-height: 35px;
 }
 
 #mapa{    
