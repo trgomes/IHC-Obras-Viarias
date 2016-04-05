@@ -23,10 +23,10 @@ function initMap() {
   //string com formatação das informacoes, imagens e valores das obras
   
   //Duplicação do Viaduto Kanebo no sentido centro
-  var contentString = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/633542/kanebo2g_498x280.jpg" width="498" height="280"/> '+
-      '<p style="font-size:20px; margin-top:10px;">Valor: R$ 11,5 milhões</p>'+ 
-      '<p style="font-size:12px;">Descrição: Duplicação do Viaduto Kanebo no sentido centro </p>'+
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 11,5 milhões</p>'+ 
+      '<p style="font-size:14px;">Descrição: Duplicação do Viaduto Kanebo no sentido centro </p>'+
       '</div>';
       
   var infowindow = new google.maps.InfoWindow({
@@ -49,10 +49,10 @@ function initMap() {
   
 
   // Implantação de nova via (AEROPORTO/TAMOIOS)
-  var contentString2 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString2 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631660/tamoios_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 10 milhões</p>'+ 
-      '<p>Descrição: Implantação de nova via em parceria com o governo do Estado (investimento municipal)</p>'+
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 10 milhões</p>'+
+      '<p style="font-size:14px;">Descrição: Implantação de nova via em parceria com o governo do Estado (investimento municipal)</p>'+
       '</div>';
   
   var infowindow2 = new google.maps.InfoWindow({
@@ -65,7 +65,7 @@ function initMap() {
     position: myLatLng2,
     map: map,
     icon: icon1,
-    title: 'Implantação de nova via (AEROPORTO/TAMOIOS)'
+    title: 'Via Aeroporto / Tamoios'
   });
 
   marker2.addListener('click', function() {
@@ -74,9 +74,10 @@ function initMap() {
   // Fim AEROPORTO/TAMOIOS
   
   //Prolongamento da Via Oeste até o Jardim Limoeiro (3,2 km)
-   var contentString3 = '<div id="content" style="height: 350px; width: 498px;">'+
+   var contentString3 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631723/viaoeste_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 1.8 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 1.8 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Prolongamento da Via Oeste até o Jardim Limoeiro (3,2 km) </p>'+
       '</div>';
   
   var infowindow3 = new google.maps.InfoWindow({
@@ -89,7 +90,7 @@ function initMap() {
     position: myLatLng3,
     map: map,
     icon: icon2,
-    title: 'Prolongamento da Via Oeste até o Jardim Limoeiro (3,2 km)'
+    title: 'Prolongaento da via oeste'
   });
 
   marker3.addListener('click', function() {
@@ -99,9 +100,10 @@ function initMap() {
   
   
   //Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)
-  var contentString4 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString4 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/637134/img_20160125_163047904_hdr_373x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 1.8 milhão</p>'+      
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 1,8 milhão</p>'+ 
+      '<p style="font-size:14px"> Descrição: Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)</p>'+
       '</div>';
   
   var infowindow4 = new google.maps.InfoWindow({
@@ -114,7 +116,7 @@ function initMap() {
     position: myLatLng4,
     map: map,
     icon: icon2,
-    title: 'Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)'
+    title: 'Ligação Cassiano Ricardo A Via Oeste'
   });
 
   marker4.addListener('click', function() {
@@ -123,9 +125,10 @@ function initMap() {
   //Fim Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)
   
   //Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale)
-  var contentString5 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString5 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631407/f00027014g_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 15.5 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 15.5 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale) </p>'+
       '</div>';
   
   var infowindow5 = new google.maps.InfoWindow({
@@ -138,7 +141,7 @@ function initMap() {
     position: myLatLng5,
     map: map,
     icon: icon2,
-    title: 'Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale)'
+    title: 'Bairro Pousada do Vale'
   });
 
   marker5.addListener('click', function() {
@@ -147,9 +150,10 @@ function initMap() {
   //Fim Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale)
   
   //AVENIDA LINDAURA APARECIDA FERREIRA DE SOUZA
-  var contentString6 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString6 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/633231/lindaura4_500x334.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 2.5 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 2.5 milhões</p>'+
+      '<p style="font-size:14px">Descrição: Drenagem e Pavimentação que vai permitir a ligação da Via Dutra ao Galo Branco</p>'+
       '</div>';
   
   var infowindow6 = new google.maps.InfoWindow({
@@ -161,7 +165,7 @@ function initMap() {
   var marker6 = new google.maps.Marker({
     position: myLatLng6,
     map: map,
-    icon: icon2,
+    icon: icon3,
     title: 'Avenida Lindaura Apareceida Ferreira de Souza'
   });
 
@@ -171,9 +175,10 @@ function initMap() {
   //Fim AVENIDA LINDAURA APARECIDA FERREIRA DE SOUZA
   
   //PORTAL DO CÉU
-  var contentString7 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString7 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/633323/portal_mg_0114_500x333.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 3 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 3 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação da Estrada do Bom Retiro a Estrada do Quebra Eixo (2,1 km)</p>'+
       '</div>';
   
   var infowindow7 = new google.maps.InfoWindow({
@@ -195,9 +200,10 @@ function initMap() {
   //Fim PORTAL DO CÉU
   
   //JARDIM MAJESTIC
-  var contentString8 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString8 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/637164/img_20160125_111146161_373x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 2.9 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 2.9 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação da Est. do Quebra Eixo a R. Guaramirim (2,5 km)</p>'+
       '</div>';
   
   var infowindow8 = new google.maps.InfoWindow({
@@ -219,9 +225,10 @@ function initMap() {
   // Fim JARDIM MAJESTIC
   
   //BAIRRO DOS FREITAS
-  var contentString9 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString9 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/633318/4%C2%B0travessa__(2)_498x330.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 1.5 milhão</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 1,5 milhão</p>'+
+      '<p style="font-size:14px"> Descrição: Pavimentação do corredor de ônibus do bairro (Quarta Travessa)</p>'+
       '</div>';
   
   var infowindow9 = new google.maps.InfoWindow({
@@ -243,9 +250,10 @@ function initMap() {
   //Fim BAIRRO DOS FREITAS
   
   //SANTA HERMÍNIA
-  var contentString11 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString11 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631285/f00025255g_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 6,47 milhão</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 6,47 milhão</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação de todas as ruas do bairro</p>'+
       '</div>';
   
   var infowindow11 = new google.maps.InfoWindow({
@@ -268,9 +276,10 @@ function initMap() {
   
   
   //SANTA MARIA
-  var contentString12 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString12 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631280/f00024790g_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 5,1 milhão</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 5,1 milhão</p>'+
+      '<p style="font-size:14px">Descrição: Drenagem e pavimentação de todas as ruas do bairro </p>'+
       '</div>';
   
   var infowindow12 = new google.maps.InfoWindow({
@@ -292,9 +301,10 @@ function initMap() {
   //Fim SANTA MARIA
   
   //CHÁCARAS ARAÚJO
-  var contentString13 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString13 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631290/f00027450g_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 2,33 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 2,33 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Pavimentação de todas as ruas do bairro</p>'+
       '</div>';
   
   var infowindow13 = new google.maps.InfoWindow({
@@ -316,9 +326,10 @@ function initMap() {
   //Fim CHÁCARAS ARAÚJO
   
   //RECANTO DOS EUCALIPTOS
-  var contentString14 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString14 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631402/f00023825g_498x280.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 660 mil</p>'+      
+      '<p style="font-size:14px; margin-top:10px;">Valor: R$ 660 mil</p>'+
+      '<p style="font-size:14px">Descrição: Galeria e pavimentação de todas as ruas do bairro (PCM)</p>'+
       '</div>';
   
   var infowindow14 = new google.maps.InfoWindow({
@@ -341,9 +352,10 @@ function initMap() {
   
   
   //RIO COMPRIDO
-  var contentString14 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString14 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631718/riocomprido_500x375.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 600 mil</p>'+      
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 600 mil</p>'+
+      '<p style="font-size:14px">Descrição: Drenagem e pavimentação da Margina B e Rua 2 </p>'+
       '</div>';
   
   var infowindow14 = new google.maps.InfoWindow({
@@ -365,18 +377,19 @@ function initMap() {
   //Fim RIO COMPRIDO
   
   //NOVA REPÚBLICA
-  var contentString15 = '<div id="content" style="height: 350px; width: 498px;">'+
+  var contentString15 = '<div id="content" style="height: 390px; width: 498px;">'+
       '<img src="http://www.sjc.sp.gov.br/media/631718/riocomprido_500x375.jpg" width="498" height="280"/>'+
-      '<p style="font-size:30px; margin-top:10px;">Valor: R$ 2,88 milhões</p>'+      
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 2,88 milhões</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação de 21 ruas do bairro em parceria com a comunidade </p>'+
       '</div>';
   
   var infowindow15 = new google.maps.InfoWindow({
     content: contentString15
   }); 
   
-  var myLatLng14 = {lat: -23.288315, lng: -45.901559};
+  var myLatLng15 = {lat: -23.288315, lng: -45.901559};
 
-  var marker14 = new google.maps.Marker({
+  var marker15 = new google.maps.Marker({
     position: myLatLng15,
     map: map,
     icon: icon1,
@@ -387,8 +400,32 @@ function initMap() {
     infowindow15.open(map, marker15);
   });
   //Fim NOVA REPÚBLICA
-
   
+
+  //CAMPOS DE SÃO JOSÉ
+  var contentString16 = '<div id="content" style="height: 390px; width: 498px;">'+
+      '<img src="http://www.sjc.sp.gov.br/media/633338/campos3_500x333.jpg" width="498" height="280"/>'+
+      '<p style="font-size:14px; margin-top:10px;"> Valor: R$ 1,26 milhão</p>'+
+      '<p style="font-size:14px"> Descrição: Drenagem e pavimentação em sete vias do bairro (2,6 km) em parceria com a comunidade </p>'+
+      '</div>';
+  
+  var infowindow16 = new google.maps.InfoWindow({
+    content: contentString16
+  }); 
+  
+  var myLatLng16 = {lat: -23.216645, lng: -45.808812};
+
+  var marker16 = new google.maps.Marker({
+    position: myLatLng16,
+    map: map,
+    icon: icon1,
+    title: 'Campos de São José'
+  });
+
+  marker16.addListener('click', function() {
+    infowindow16.open(map, marker16);
+  });
+  //CAMPOS DE SÃO JOSÉ
    
   
 

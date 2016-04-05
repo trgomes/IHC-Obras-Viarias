@@ -39,7 +39,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#graficos">Gráficos</a>
+                            <a href="#graficos">Gráfico</a>
                         </li>
 
                         <li>
@@ -62,7 +62,7 @@
                     </div>                
                 </div>
             </div>            
-            
+
             <div class="container text-center" id="legenda">
                 <div class="row">
                     <div class="col-md-4">
@@ -79,55 +79,22 @@
         </section>        
 
         <section class="container" id="graficos">
-            <h1 class="text-center text-primary"> GRÁFICOS</h1>
-            <div class="row">
-                <div class="col-md-6 box-chart">
-                    <canvas id="GraficoPolar" style="width:100%;"></canvas>                    
-                </div>     
+            <h1 class="text-center text-primary"> DADOS NO GRÁFICO</h1>
+            <div class="row">                                 
 
-                <div class="col-md-6">
-                    <canvas id="GraficoBarra" style="width:100%;"></canvas>                    
-
-                    <script type="text/javascript">
-                        var randomnb = function () {
-                            return Math.round(Math.random() * 10)
-                        };
-                    </script>
-
-                    <script type="text/javascript">
-                
-                        var options = {
-                            responsive: true
-                        };
-                
-                        var data = {
-                            labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
-                            datasets: [
-                                {
-                                    label: "Dados primários",
-                                    fillColor: "rgba(220,220,220,0.5)",
-                                    strokeColor: "rgba(220,220,220,0.8)",
-                                    highlightFill: "rgba(220,220,220,0.75)",
-                                    highlightStroke: "rgba(220,220,220,1)",
-                                    data: [randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb(), randomnb()]
-                                },
-                                {
-                                    label: "Dados secundários",
-                                    fillColor: "rgba(151,187,205,0.5)",
-                                    strokeColor: "rgba(151,187,205,0.8)",
-                                    highlightFill: "rgba(151,187,205,0.75)",
-                                    highlightStroke: "rgba(151,187,205,1)",
-                                    data: [28, 48, 40, 19, 86, 27, 90, randomnb(), randomnb(), randomnb(), randomnb(), randomnb()]
-                                }
-                            ]
-                        };
-                
-                        window.onload = function () {
-                            var ctx = document.getElementById("GraficoBarra").getContext("2d");
-                            var BarChart = new Chart(ctx).Bar(data, options);
-                        }
-                    </script> 
+                <div class="col-md-8 box-chart">
+                    <!--<canvas id="GraficoBarra" style="width:100%;"></canvas>--> 
+                    <!--<canvas id ="GraficoBarra" style = "width:100%;" > </canvas>--> 
+                    <canvas id="GraficoPizza" style="width:100%;"></canvas>
                 </div>
+                
+                <div class="col-md-4" id="investimento">                    
+                    <hgroup>
+                        <h2>Investimento total</h2>
+                        <h1><small>R$ 76,8 Milhões</small></h1>
+                    </hgroup>
+                </div>
+
             </div>
         </section> 
 
@@ -159,17 +126,17 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/joao.jpg" class="center-block img-circle img-responsive">
+                    <img src="img/3.jpg" class="center-block img-circle img-responsive">
                     <h3 class="text-center">João Pedro de Almeida</h3>
                     <p class="text-center">Developer</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/leonardo.jpg" class="center-block img-circle img-responsive">
+                    <img src="img/2.jpg" class="center-block img-circle img-responsive">
                     <h3 class="text-center">Leonardo Ramos</h3>
                     <p class="text-center">Developer</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Caricatura redonda.png" class="center-block img-circle img-responsive">
+                    <img src="img/1.jpg" class="center-block img-circle img-responsive">
                     <h3 class="text-center">Thiago Gomes</h3>
                     <p class="text-center">Developer</p>
                 </div>
@@ -201,11 +168,10 @@
 
         <!--Grafico-->
         <script src="js/Chart.min.js"></script>
-        
+
         <script type="text/javascript">
-            
-            var randomScalingFactor = function () {
-                return Math.round(Math.random() * 10)
+            var randomnb = function () {
+                return Math.round(Math.random() * 300)
             };
 
             var options = {
@@ -214,36 +180,29 @@
 
             var data = [
                 {
-                    value: randomScalingFactor(),
-                    color: "#F7464A",
-                    highlight: "#FF5A5E",
-                    label: "Zona norte"
+                    value: 1,
+                    color: "#FF0033",
+                    highlight: "#FF7F7F",
+                    label: "Obras Paradas (R$ 2,5 Milhões)"
                 },
                 {
-                    value: randomScalingFactor(),
-                    color: "#46BFBD",
-                    highlight: "#5AD3D1",
-                    label: "Zona Sul"
+                    value: 9,
+                    color: "#339933",
+                    highlight: "#6FA574",
+                    label: "Finalizadas (R$ 47,8 Milhões)"
                 },
                 {
-                    value: randomScalingFactor(),
-                    color: "#FDB45C",
-                    highlight: "#FFC870",
-                    label: "Zona Leste"
-                },
-                {
-                    value: randomScalingFactor(),
-                    color: "#949FB1",
-                    highlight: "#A8B3C5",
-                    label: "Zona Oeste"
+                    value: 6,
+                    color: "#FFFF33",
+                    highlight: "#FFE97F",
+                    label: "Em Andamento (R$ 26,5 Milhões)"
                 }
-
-            ];
+            ]
 
             window.onload = function () {
 
-                var ctx = document.getElementById("GraficoPolar").getContext("2d");
-                var PolarChart = new Chart(ctx).PolarArea(data, options);
+                var ctx = document.getElementById("GraficoPizza").getContext("2d");
+                var PizzaChart = new Chart(ctx).Pie(data, options);
             }
         </script>
 
