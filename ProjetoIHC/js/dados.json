@@ -1,161 +1,161 @@
 [
     {
-		"URL": "http://www.sjc.sp.gov.br/media/633542/kanebo2g_498x280.jpg",
-		"Valor": "R$ 11,5 milhões",
-		"Descricao": "Duplicação do Viaduto Kanebo no sentido centro",
+        "URL": "http://www.sjc.sp.gov.br/media/633542/kanebo2g_498x280.jpg",
+        "Valor": "R$ 11,5 milhões",
+        "Descricao": "Duplicação do Viaduto Kanebo no sentido centro",
         "Latitude": -23.221308,
         "Longitude": -45.900910,
-		"status": "icon1",
-		"Titulo": "Duplicação do Viaduto Kanebo no sentido centro"		
+        "status": "icon1",
+        "Titulo": "Duplicação do Viaduto Kanebo no sentido centro"		
     },
     
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631660/tamoios_498x280.jpg",
-		"Valor": "R$ 10 milhões",
-		"Descricao": "Implantação de nova via em parceria com o governo do Estado (investimento municipal)",
+        "Valor": "R$ 10 milhões",
+        "Descricao": "Implantação de nova via em parceria com o governo do Estado (investimento municipal)",
         "Latitude": -23.227582,
         "Longitude": -45.872471,
-		"status": "icon1",
-		"Titulo": "Via Aeroporto / Tamoios"
+        "status": "icon1",
+        "Titulo": "Via Aeroporto / Tamoios"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631723/viaoeste_498x280.jpg",
-		"Valor": "R$ 1.8 milhões",
-		"Descricao": " Prolongamento da Via Oeste até o Jardim Limoeiro (3,2 km)",
+        "Valor": "R$ 1.8 milhões",
+        "Descricao": " Prolongamento da Via Oeste até o Jardim Limoeiro (3,2 km)",
         "Latitude": -23.241637,
         "Longitude": -45.938168,
-		"status": "icon2",
-		"Titulo": "Prolongaento da via oeste"
+        "status": "icon2",
+        "Titulo": "Prolongaento da via oeste"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/637134/img_20160125_163047904_hdr_373x280.jpg",
-		"Valor": "R$ 1,8 milhão",
-		"Descricao": "Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)",
+        "Valor": "R$ 1,8 milhão",
+        "Descricao": "Drenagem e Pavimentação da Av João Batista Ortiz Monteiro (LIGAÇÃO CASSIANO RICARDO A VIA OESTE)",
         "Latitude": -23.215814,
         "Longitude": -45.917451,
-		"status": "icon2",
-		"Titulo": "Ligação Cassiano Ricardo A Via Oeste"
+        "status": "icon2",
+        "Titulo": "Ligação Cassiano Ricardo A Via Oeste"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631407/f00027014g_498x280.jpg",
-		"Valor": "R$ 15.5 milhões",
-		"Descricao": "Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale)",
+        "Valor": "R$ 15.5 milhões",
+        "Descricao": "Drenagem e pavimentação de todas as 28 ruas (Bairro Pousada do Vale)",
         "Latitude": -23.1837478,
         "Longitude": -45.8902316,
-		"status": "icon2",
-		"Titulo": "Bairro Pousada do Vale"
+        "status": "icon2",
+        "Titulo": "Bairro Pousada do Vale"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/633231/lindaura4_500x334.jpg",
-		"Valor": "R$ 2.5 milhões",
-		"Descricao": "Drenagem e Pavimentação que vai permitir a ligação da Via Dutra ao Galo Branco",
+        "Valor": "R$ 2.5 milhões",
+        "Descricao": "Drenagem e Pavimentação que vai permitir a ligação da Via Dutra ao Galo Branco",
         "Latitude": -23.135795,
         "Longitude": -45.764505,
-		"status": "icon3",
-		"Titulo": "Avenida Lindaura Apareceida Ferreira de Souza"
+        "status": "icon3",
+        "Titulo": "Avenida Lindaura Apareceida Ferreira de Souza"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/633323/portal_mg_0114_500x333.jpg",
-		"Valor": "R$ 3 milhões",
-		"Descricao": "Drenagem e pavimentação da Estrada do Bom Retiro a Estrada do Quebra Eixo (2,1 km)",
+        "Valor": "R$ 3 milhões",
+        "Descricao": "Drenagem e pavimentação da Estrada do Bom Retiro a Estrada do Quebra Eixo (2,1 km)",
         "Latitude": -23.202219,
         "Longitude": -45.769260,
-		"status": "icon2",
-		"Titulo": "Portal do Céu"
+        "status": "icon2",
+        "Titulo": "Portal do Céu"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/637164/img_20160125_111146161_373x280.jpg",
-		"Valor": "2.9 milhões",
-		"Descricao": "Drenagem e pavimentação da Est. do Quebra Eixo a R. Guaramirim (2,5 km)",
+        "Valor": "2.9 milhões",
+        "Descricao": "Drenagem e pavimentação da Est. do Quebra Eixo a R. Guaramirim (2,5 km)",
         "Latitude": -23.194532,
         "Longitude": -45.759355,
-		"status": "icon2",
-		"Titulo": "Jardim Majestic"
+        "status": "icon2",
+        "Titulo": "Jardim Majestic"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/633318/4%C2%B0travessa__(2)_498x330.jpg",
-		"Valor": "R$ 1,5 milhão",
-		"Descricao": "Pavimentação do corredor de ônibus do bairro (Quarta Travessa)",
+        "Valor": "R$ 1,5 milhão",
+        "Descricao": "Pavimentação do corredor de ônibus do bairro (Quarta Travessa)",
         "Latitude": -23.153924,
         "Longitude": -45.908564,
-		"status": "icon2",
-		"Titulo": "Bairro dos Freitas"
+        "status": "icon2",
+        "Titulo": "Bairro dos Freitas"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631285/f00025255g_498x280.jpg",
-		"Valor": "R$ 6,47 milhão",
-		"Descricao": "Drenagem e pavimentação de todas as ruas do bairro",
+        "Valor": "R$ 6,47 milhão",
+        "Descricao": "Drenagem e pavimentação de todas as ruas do bairro",
         "Latitude": -23.214451,
         "Longitude": -45.783679,
-		"status": "icon1",
-		"Titulo": "Santa Hermínia"
+        "status": "icon1",
+        "Titulo": "Santa Hermínia"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631280/f00024790g_498x280.jpg",
-		"Valor": "R$ 5,1 milhão",
-		"Descricao": "Drenagem e pavimentação de todas as ruas do bairro",
+        "Valor": "R$ 5,1 milhão",
+        "Descricao": "Drenagem e pavimentação de todas as ruas do bairro",
         "Latitude": -23.180791,
         "Longitude": -45.786108,
-		"status": "icon1",
-		"Titulo": "Santa Maria"
+        "status": "icon1",
+        "Titulo": "Santa Maria"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631290/f00027450g_498x280.jpg",
-		"Valor": "R$ 2,33 milhões",
-		"Descricao": "Pavimentação de todas as ruas do bairro",
+        "Valor": "R$ 2,33 milhões",
+        "Descricao": "Pavimentação de todas as ruas do bairro",
         "Latitude": -23.187544,
         "Longitude": -45.799820,
-		"status": "icon1",
-		"Titulo": "Chácaras Araújo"
+        "status": "icon1",
+        "Titulo": "Chácaras Araújo"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631402/f00023825g_498x280.jpg",
-		"Valor": "R$ 660 mil",
-		"Descricao": "Galeria e pavimentação de todas as ruas do bairro (PCM)",
+        "Valor": "R$ 660 mil",
+        "Descricao": "Galeria e pavimentação de todas as ruas do bairro (PCM)",
         "Latitude": -23.224003,
         "Longitude": -45.835866,
-		"status": "icon1",
-		"Titulo": "Recanto dos Eucaliptos"
+        "status": "icon1",
+        "Titulo": "Recanto dos Eucaliptos"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631718/riocomprido_500x375.jpg",
-		"Valor": "R$ 600 mil",
-		"Descricao": "Drenagem e pavimentação da Margina B e Rua 2",
+        "Valor": "R$ 600 mil",
+        "Descricao": "Drenagem e pavimentação da Margina B e Rua 2",
         "Latitude": -23.256260,
         "Longitude": -45.944155,
-		"status": "icon1",
-		"Titulo": "Rio Comprido"
+        "status": "icon1",
+        "Titulo": "Rio Comprido"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/631718/riocomprido_500x375.jpg",
-		"Valor": "R$ 2,88 milhões",
-		"Descricao": "Drenagem e pavimentação de 21 ruas do bairro em parceria com a comunidade",
+        "Valor": "R$ 2,88 milhões",
+        "Descricao": "Drenagem e pavimentação de 21 ruas do bairro em parceria com a comunidade",
         "Latitude": -23.288315,
         "Longitude": -45.901559,
-		"status": "icon1",
-		"Titulo": "Jardim Nova República"
+        "status": "icon1",
+        "Titulo": "Jardim Nova República"
     },
 	
-	{
+    {
         "URL": "http://www.sjc.sp.gov.br/media/633338/campos3_500x333.jpg",
-		"Valor": "R$ 1,26 milhão",
-		"Descricao": "Drenagem e pavimentação em sete vias do bairro (2,6 km) em parceria com a comunidade",
+        "Valor": "R$ 1,26 milhão",
+        "Descricao": "Drenagem e pavimentação em sete vias do bairro (2,6 km) em parceria com a comunidade",
         "Latitude": -23.216645,
         "Longitude": -45.808812,
-		"status": "icon1",
-		"Titulo": "Campos de São José"
+        "status": "icon1",
+        "Titulo": "Campos de São José"
     }
 ]
