@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Teste JSON</title>
+        <meta charset="UTF-8" lang="pt-br">        
+    </head>
+
+    <body>
+
+    </body>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $.getJSON('https://api.myjson.com/bins/1ip3e', function (dados) {
+            for (var i = 0; i < dados.length; i++) {
+
+//                $(document.body).append('<div id="content" style="height: 390px; width: 498px;">' +
+//                        '<img src="' + dados[i].URL +'" width="498" height="280"/>'+
+//                        '<p style="font-size:14px; margin-top:10px;"> Valor: ' + dados[i].Valor + '</p>' +
+//                        '<p style="font-size:14px;">Descrição:' + dados[i].Descricao + '</p>' +
+//                        '</div>');
+                
+                var teste = '<div id="content" style="height: 390px; width: 498px;">' +
+                        '<img src="' + dados[i].URL +'" width="498" height="280"/>'+
+                        '<p style="font-size:14px; margin-top:10px;"> Valor: ' + dados[i].Valor + '</p>' +
+                        '<p style="font-size:14px;">Descrição:' + dados[i].Descricao + '</p>' +
+                        '</div>';
+
+                $(document.body).append(teste);
+
+            }
+        });
+
+    </script>
+
+    <script src="js/mapa_1.js"></script>
+</html>
+
+
+
+<!--https://api.myjson.com/bins/1ip3e-->
