@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Obras viárias - SJC</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Personalisado -->
+        <link href="css/estilo.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top cor" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="teste" href="#">Obras Viárias <img src="img/logo-sjc.png" class="img-responsive"/></a>    
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#graficos">Gráfico</a>
+                        </li>
+
+                        <li>
+                            <a href="#sobre">Sobre</a>
+                        </li> 
+
+                        <li>
+                            <a href="#equipe">Equipe</a>
+                        </li>                       
+                    </ul> 
+                </div>              
+            </div>
+        </nav>
+
+        <section class="container-fluid jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="mapa">
+
+                    </div>              
+                               
+                </div>
+            </div>            
+
+            <div class="container text-center" id="legenda">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p><img src="http://i.stack.imgur.com/cdiAE.png" class="img-circle vermelho" /> Obras paradas</p>
+                    </div>                    
+                    <div class="col-md-4">
+                        <p><img src=" https://maps.google.com/mapfiles/ms/icons/yellow-dot.png" class="img-circle amarelo" /> Obras em andamento</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><img src="http://i.stack.imgur.com/rU427.png" class="img-circle verde"/> Obras finalizadas</p>
+                    </div>
+                </div> 
+            </div>
+        </section>        
+
+        <section class="container" id="graficos">
+            <h1 class="text-center text-primary"> DADOS NO GRÁFICO</h1>
+            <div class="row">                                 
+
+                <div class="col-md-8 box-chart">
+                    <!--<canvas id="GraficoBarra" style="width:100%;"></canvas>--> 
+                    <!--<canvas id ="GraficoBarra" style = "width:100%;" > </canvas>--> 
+                    <canvas id="GraficoPizza" style="width:100%;"></canvas>
+                </div>
+                
+                <div class="col-md-4" id="investimento">                    
+                    <hgroup>
+                        <h2>Investimento total</h2>
+                        <h1><small>R$ 76,8 Milhões</small></h1>
+                    </hgroup>
+                </div>
+
+            </div>
+        </section> 
+
+        <section class="container" id="sobre">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="text-center text-primary">SOBRE O PROJETO</h1>
+                    <p class="text-justify">Obras Viárias de São José dos Campos é um projeto desenvolvido por um grupo de três integrantes,
+                        visando a exibição direta e clara dos dados públicos sobre as construções que foram,
+                        estão sendo e que ainda serão colocadas em prática no município. Usando como base o
+                        site oficial da Prefeitura de São José dos Campos, informações coletadas são mostradas
+                        de modo simplificado em um mapa on-line, incluso em uma interface web também desenvolvida
+                        pelo time em questão. Dinheiro investido, imagens e localização das obras são detalhes que
+                        podem ser identificados em marcadores distribuídos ao longo da interface, utilizando recursos
+                        da Interação Humano-Computador, como as cores verde, vermelho e amarelo, para evidenciar as
+                        áreas mais importantes do ambiente virtual. Trata-se de uma forma de facilitar o acesso à
+                        informação pública sobre tais construções.</p>
+                </div>
+            </div>
+        </section>            
+
+
+
+        <section class="container" id="equipe">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center text-primary">EQUIPE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/3.jpg" class="center-block img-circle img-responsive">
+                    <h3 class="text-center">João Pedro de Almeida</h3>
+                    <p class="text-center">Developer</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/2.jpg" class="center-block img-circle img-responsive">
+                    <h3 class="text-center">Leonardo Ramos</h3>
+                    <p class="text-center">Developer</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/1.jpg" class="center-block img-circle img-responsive">
+                    <h3 class="text-center">Thiago Gomes</h3>
+                    <p class="text-center">Developer</p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer  class="bg-primary">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3>Interação Humano Computator</h3>
+                        <p>Orgulhosamente desenvolvido por João Pedro de Almeida, Leonardo Ramos
+                            e Thiago Gomes - FATEC 2016</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Maps API Javascript -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAg6er5uhJa0pDsem-JcPvQk2TMJIugo9U&callback=initMap&amp;sensor=false"></script>
+        
+        <!--jquery-->
+        <script src="js/jquery.min.js"></script>
+        <!--Bootstrap CSS-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--Conteudo do mapa-->
+        <script src="js/mapa.js"></script>
+        <!--Grafico-->
+        <script src="js/Chart.min.js"></script>
+
+        <script type="text/javascript">
+            var randomnb = function () {
+                return Math.round(Math.random() * 300)
+            };
+
+            var options = {
+                responsive: true
+            };
+
+            var data = [
+                {
+                    value: 1,
+                    color: "#FF0033",
+                    highlight: "#FF7F7F",
+                    label: "Obras Paradas (R$ 2,5 Milhões)"
+                },
+                {
+                    value: 9,
+                    color: "#339933",
+                    highlight: "#6FA574",
+                    label: "Finalizadas (R$ 47,8 Milhões)"
+                },
+                {
+                    value: 6,
+                    color: "#FFFF33",
+                    highlight: "#FFE97F",
+                    label: "Em Andamento (R$ 26,5 Milhões)"
+                }
+            ]
+
+            window.onload = function () {
+
+                var ctx = document.getElementById("GraficoPizza").getContext("2d");
+                var PizzaChart = new Chart(ctx).Pie(data, options);
+            }
+        </script>
+
+    </body>
+</html>
