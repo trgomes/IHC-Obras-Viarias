@@ -32,29 +32,30 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" id="teste" href="#">Obras Viárias <img src="img/logo-sjc.png" class="img-responsive"/></a>    
+                    
+                    <a class="navbar-brand smoothScroll" href="#topo">Obras Viárias <img src="img/logo-sjc.png" class="img-responsive"/></a>    
 
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#graficos">Gráfico</a>
+                            <a href="#graficos" class="smoothScroll">Gráfico</a>
                         </li>
 
                         <li>
-                            <a href="#sobre">Sobre</a>
+                            <a href="#sobre" class="smoothScroll">Sobre</a>
                         </li> 
 
                         <li>
-                            <a href="#equipe">Equipe</a>
+                            <a href="#equipe" class="smoothScroll">Equipe</a>
                         </li>                       
                     </ul> 
                 </div>              
             </div>
         </nav>
 
-        <section class="container-fluid jumbotron">
+        <section class="container-fluid jumbotron" id="topo">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12" id="mapa">
@@ -166,44 +167,18 @@
         <script src="js/bootstrap.min.js"></script>
         <!--Conteudo do mapa-->
         <script src="js/mapa.js"></script>
-        <!--Grafico-->
+        <!-- Biblioteca Grafico-->
         <script src="js/Chart.min.js"></script>
-
+        <!--Grafico-->
+        <script src="js/grafico.js"></script>
+        <!--Script para fazer a rolagem suave clicando nos menus-->
         <script type="text/javascript">
-            var randomnb = function () {
-                return Math.round(Math.random() * 300)
-            };
-
-            var options = {
-                responsive: true
-            };
-
-            var data = [
-                {
-                    value: 1,
-                    color: "#FF0033",
-                    highlight: "#FF7F7F",
-                    label: "Obras Paradas (R$ 2,5 Milhões)"
-                },
-                {
-                    value: 9,
-                    color: "#339933",
-                    highlight: "#6FA574",
-                    label: "Finalizadas (R$ 47,8 Milhões)"
-                },
-                {
-                    value: 6,
-                    color: "#FFFF33",
-                    highlight: "#FFE97F",
-                    label: "Em Andamento (R$ 26,5 Milhões)"
-                }
-            ]
-
-            window.onload = function () {
-
-                var ctx = document.getElementById("GraficoPizza").getContext("2d");
-                var PizzaChart = new Chart(ctx).Pie(data, options);
-            }
+            jQuery(document).ready(function ($) {
+                $(".smoothScroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1200);
+                });
+            });
         </script>
 
     </body>
